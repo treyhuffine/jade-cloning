@@ -143,3 +143,17 @@ nav {
   padding-left: 0;
   margin-top: 10px;
 }
+.live-good {
+  color: #509655;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(219, 217, 217);
+}
+.treat-yoself {
+  color: rgb(114, 115, 114);
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(219, 217, 217);
+}

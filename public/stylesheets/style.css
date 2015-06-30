@@ -99,6 +99,26 @@ a {
   margin-left: 50%;
   margin-top: 10px;
 }
-.first-pic {
+.img-container {
+  margin-top: 15px;
+  overflow: auto;
+}
+#pics {
   padding-left: 0;
+  padding-right: 0;
+  font-size: .8em;
+  width: 30%;
+  display: inline-block;
+}
+.mid {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.link-text {
+  margin-bottom: 2px;
+  color: rgb(52, 131, 98);
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
 }

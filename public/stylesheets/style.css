@@ -1,9 +1,6 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-a {
-  color: #00B7FF;
-}
 .nav-logo {
   margin-top: 20px;
   overflow: auto;
@@ -121,4 +118,28 @@ a {
   margin-top: 5px;
   margin-bottom: 5px;
   font-weight: bold;
+}
+nav {
+  overflow: auto;
+}
+.mission-container {
+  margin-top: 15px;
+}
+.mission-link {
+  color: rgb(108, 108, 108);
+}
+.mission-list ul {
+  list-style: none;
+  color: rgb(154, 154, 154);
+  border-top: 1px solid rgb(204, 204, 204);
+  padding-left: 0;
+  cursor: pointer;
+}
+#quotes {
+  padding: 0;
+  background-color: #F1EEEC;
+}
+#mission-desc {
+  padding-left: 0;
+  margin-top: 10px;
 }

@@ -94,3 +94,8 @@ a {
   padding-top: 5px;
   display: inline-block;
 }
+#search {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 10px;
+}

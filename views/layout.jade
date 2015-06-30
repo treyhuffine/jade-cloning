@@ -1,7 +1,45 @@
 doctype html
 html
   head
-    title= title
+    title= "Living like a boss"
     link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js")
   body
-    block content
+    .app-container
+      .container-fluid
+        nav
+          .nav-logo
+            a(href="/")
+              img(src="http://livegoodinc.com/assets/lglogo-d63a7197cc854147123451f355066fc8.png" class="img-responsive")
+        block content
+
+        footer.footer
+          .follow-container.pull-left
+            span.follow-text FOLLOW US:
+            span.follow-buttons
+              span.follow-cell
+                a(href="facebook.com/trey.huffne")
+                  img(src="http://livegoodinc.com/images/facebook.png")
+              span.follow-cell
+                a(href="twitter.com/treyhuffne")
+                  img(src="http://livegoodinc.com/images/twitter.png")
+              span.follow-cell
+                a(href="https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+                  img(src="http://livegoodinc.com/images/pinterest.png")
+        ul.pull-right.foot-list
+          li HOME
+          li BLOG
+          li FAQ
+          li WHOLESALE
+          li SHIPPING & RETURN
+          li TERMS OF USE
+          li CONTACT US
+        span.bottom-container.pull-left
+
+          span.like-btn
+            img(src="http://therangewi.com/wp-content/uploads/2014/09/new-facebook-like-button.png" class="like-img img-responsive pull-left")
+          span.like-text 9,576 people like this. Be the first of your friends.
+          .copyright.pull-right COPYRIGHT © 2011-2012 LIVE GOOD, INC. ALL RIGHTS RESERVED.

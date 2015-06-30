@@ -1,8 +1,66 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
 a {
   color: #00B7FF;
+}
+.nav-logo {
+  margin-top: 20px;
+}
+.follow-text {
+  display: inline-block;
+  margin-top: 15px;
+}
+.follow-cell {
+  margin-left: 8px;
+  display: inline-block;
+}
+.follow-container {
+  display: inline-block;
+  font-size: .8em;
+  color: rgb(138, 138, 138);
+}
+.follow-buttons {
+  margin-top: -10px;
+  display: inline;
+}
+.foot-list li {
+  display: inline;
+  margin-left: 15px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.foot-list {
+  list-style: none;
+  margin-top: 10px;
+  font-size: .8em;
+  color: rgb(138, 138, 138);
+}
+.app-container {
+  width: 76.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bottom-container {
+  clear: both;
+  margin-top: 40px;
+}
+.like-img {
+  width: 6%;
+  margin-left: -6px;
+  cursor: pointer;
+}
+.bottom-container {
+  display: inline;
+}
+.like-text {
+  vertical-align: bottom;
+  display: inline-block;
+  font-size: .75em;
+  padding-top: 9px;
+}
+.copyright {
+  font-size: .7em;
+  padding-top: 10px;
+  color: rgb(138, 138, 138);
 }
